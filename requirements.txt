@@ -27,7 +27,6 @@ six==1.10.0
 SQLAlchemy==1.2.0b2
 sqlalchemy-migrate==0.11.0
 sqlparse==0.2.3
-system-service==0.3
 Tempita==0.5.2
 ubuntu-drivers-common==0.0.0
 ufw==0.35
