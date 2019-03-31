@@ -12,6 +12,7 @@ html5lib==0.999
 itsdangerous==0.24
 Jinja2==2.9.6
 lxml==3.5.0
+libcups2-dev
 MarkupSafe==1.0
 pbr==3.1.1
 pexpect==4.0.1
