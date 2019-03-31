@@ -1,0 +1,15 @@
+Flask==0.12.2
+Flask-Login==0.4.0
+Flask-OpenID==1.2.5
+Flask-SQLAlchemy==2.2
+Flask-WTF==0.14.2
+itsdangerous==0.24
+Jinja2==2.9.6
+requests==2.9.1
+SQLAlchemy==1.2.0b2
+sqlalchemy-migrate==0.11.0
+sqlparse==0.2.3
+urllib3==1.13.1
+virtualenv==15.0.1
+Werkzeug==0.12.2
+WTForms==2.1
