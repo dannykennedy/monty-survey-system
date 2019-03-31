@@ -1,0 +1,31 @@
+select * from user, course_user_table, course_offering where user.user_id=course_user_table.user_id and course_user_table.course_id=course_offering.course_id and course_offering.course_name='COMP1531' and course_offering.semester='18s2';
+
+955|student316|student|955|37|37|COMP1531|17s2|
+1002|staff1002|staff|1002|37|37|COMP1531|17s2|
+
+tests:
+
+975|student164|student|975|238|238|COMP9321|17s2|
+1109|staff1109|staff|1109|238|238|COMP9321|17s2|
+
+
+177,COMP9321,17s2 177,student313,student
+266,COMP9321,17s2 266,student887,student
+283,COMP9321,17s2 283,student462,student
+
+
+972|student375|student|972|205|205|COMP6741|17s2|
+1110|staff1110|staff|1110|205|205|COMP6741|17s2|
+
+110,COMP6741,17s2 110,student855,student
+185,COMP6741,17s2 185,student754,student
+193,COMP6741,17s2 193,student780,student
+235,COMP6741,17s2 235,student581,student
+258,COMP6741,17s2 258,student904,student
+358,COMP6741,17s2 358,student242,student
+384,COMP6741,17s2 384,student319,student
+396,COMP6741,17s2 396,student293,student
+403,COMP6741,17s2 403,student210,student
+432,COMP6741,17s2 432,student311,student
+
+selection of students for surveys
