@@ -20,10 +20,10 @@
 
      	 		<ul class="nav nav-pills">
 					{% if user.is_admin() %}
-					<li class="nav-item"><a href="{{ url_for('view_charts') }}"><span class="fa fa-pie-chart"></span> Charts</a></li> |
-					<li class="nav-item"><a href="{{ url_for('view_surveys') }}"><span class="fa fa-files-o"></span> Surveys</a></li> |
-					<li class="nav-item"><a href="{{ url_for('view_questions') }}"><span class="fa fa-file-text-o"></span> New Survey</a></li> |
 					<li class="nav-item"><a href="{{ url_for('add_question') }}"><span class="fa fa-pencil"></span> Add Question</a></li> |
+					<li class="nav-item"><a href="{{ url_for('view_questions') }}"><span class="fa fa-file-text-o"></span> New Survey</a></li> |
+					<li class="nav-item"><a href="{{ url_for('view_surveys') }}"><span class="fa fa-files-o"></span> Surveys</a></li> |
+					<li class="nav-item"><a href="{{ url_for('view_charts') }}"><span class="fa fa-pie-chart"></span> Charts</a></li> |
 					{% endif %}
 					<li class="nav-item"> <a id="logout-btn" type="submit" href="{{ url_for('logout') }}"><span class="fa fa-sign-out"></span> Logout</a></li>
 				</ul>
